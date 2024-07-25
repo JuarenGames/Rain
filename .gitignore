@@ -1,0 +1,76 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# /[Ll]ibrary/ is where Unity stores all cached data: source asset imports, compiled shaders, serialized game data, etc.
+# It is safe to delete it at any time. Included to reduce upload/download times.
+[Ll]ibrary/
+
+# /[Tt]emp/ is where Unity stores temporary data for the editor and incomplete builds. Included to reduce upload/download times.
+[Tt]emp/
+
+# /[Oo]bj/ contains temporary build data that can be recreated easily. Included to reduce upload/download times.
+[Oo]bj/
+
+# /[Bb]uild/ is the build output of the project. Included to reduce upload/download times.
+[Bb]uild/
+
+# /[Uu]ser[Ss]ettings/ contains per-user specific configuration data. Included to reduce upload/download times.
+# Note: The only file that should be kept is EditorUserSettings.asset
+# If any project specific user settings (like console window layout, window layouts, etc.) should be shared
+# add them back to the repo after being ignored.
+# Include this folder only if your project uses per-user settings or if you have team-wide default settings.
+# [Uu]ser[Ss]ettings/
+
+# Below are common paths that are used in Unity projects. Keep them here as examples.
+# Some of them should be kept in the repository in certain scenarios. Check the comments for guidance.
+
+# Asset Store assets and plugins
+# [Aa]ssets/AssetStoreTools*
+
+# Mono auto generated files
+# [Aa]ssets/Plugins/**/*.csproj
+
+# Mono auto generated files - data
+# [Aa]ssets/Plugins/**/*.csproj.FileListAbsolute.txt
+
+# Mono auto generated files - data
+# [Aa]ssets/Plugins/**/*.csproj.FileListRelative.txt
+
+# Mono auto generated files - data
+# [Aa]ssets/Plugins/**/*.csproj.FileListReferences.txt
+
+# Unity3d-generated meta files
+*.pidb.meta
+
+# Unity3d-generated file on crash reports
+*.pidb
+
+# Unnecessary raw debug data
+*.mdb
+
+# Crash reports
+sysinfo.txt
+
+# Build results
+*.apk
+*.unitypackage
+
+# Packages
+/Packages/manifest.json
+/Packages/packages-lock.json
+
+# Uncomment if you have VFX graph in your project
+# /Assets/VFXGraph/
+
+# Uncomment if you have Assembly Definitions in your project
+# /[Aa]ssets/**/*.asmdef
+
+# Uncomment if you have Assembly Definition References in your project
+# /[Aa]ssets/**/*.asmref
+
+# Uncomment if you have shader graphs in your project
+# /[Aa]ssets/**/*.shadergraph
+
+# Uncomment if you have TextMesh Pro in your project
+# /[Aa]ssets/TextMesh Pro
